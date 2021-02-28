@@ -323,6 +323,9 @@ void LED2() { //function to change LED1s(street 1) to red and LED2s(side street)
     }
     delay(2500);
   }
+  digitalWrite(green_LED1, LOW);
+  digitalWrite(yellow_LED1, LOW);
+  digitalWrite(red_LED1, HIGH);
   digitalWrite(green_LED2, LOW);
   digitalWrite(yellow_LED2 , HIGH);
   digitalWrite(red_LED2, LOW);
